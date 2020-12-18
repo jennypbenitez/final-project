@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav {
+  margin: 20px;
+  padding: 10px;
+}
+
+header nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+header nav a:hover {
+  color: rgb(204, 102, 0);
+}
+
+.logo {
+  float: left;
+}
+
+body {
+  background-image:url('images/coffeebeans.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote {
+  width: 100%;
+  background-color: black;
+  margin-top: 40px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.split {
+  background-color: rgb(134, 89, 45);
+  height:200px;
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: 0;
+  margin-left: 300px;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 20px;
+  border: solid 3px white;
+}
+
+.button:hover {
+  color: rgb(153, 77, 0);
+}
+
+
+
+
+
+
+
+.shop-now {
+  background-color: rgb(153, 77, 0);
+  width: 100%;
+  height: 250px;
+}
+
+.word-container {
+  width: 25%;
+  margin-left: 155px;
+}
+
+.h-tag {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 27px;
+}
+
+.coffee-desc {
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 27px;
+  margin-top: -15px;
+}
+
+.button-2 {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px;
+  border: solid 3px white;
+}
+
+.button-2:hover {
+  color: rgb(153, 77, 0);
+}
+
+.add-to-cart {
+  margin-top: 20px;
+  margin-left: 280px;
+}
+
+.coffee-image {
+  margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
