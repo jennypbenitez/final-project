@@ -11,13 +11,13 @@
   background-size: cover;
   width: 100%;
   margin: 0;
-  height: 150px;
+  height: 120px;
 }
 
 header {
   width: 100%;
   overflow: hidden;
-  background: rgb(0, 0, 0, 0.5)
+  background: rgb(0, 0, 0, 0.5);
 }
 
 header nav ul li {
@@ -44,11 +44,12 @@ header nav a:hover {
 .logo {
   float: left;
   padding-left: 50px;
+  padding-top: 10px;
 }
 
 .container {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   height: 60px;
 }
 
