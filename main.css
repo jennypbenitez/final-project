@@ -4,13 +4,20 @@
   border: 0;
 }
 
-.container {
-  text-align: center;
+#bck-image {
+  background-image:url('images/coffeebeans.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  height: 150px;
 }
 
 header {
   width: 100%;
   overflow: hidden;
+  background: rgb(0, 0, 0, 0.5)
 }
 
 header nav ul li {
@@ -27,46 +34,58 @@ header nav a {
   font-size: 20px;
   text-decoration: none;
   margin: 50px;
+  font-weight: bold;
 }
 
 header nav a:hover {
-  color: rgb(204, 102, 0);
+  color: rgb(119, 62, 36);
 }
 
 .logo {
   float: left;
+  padding-left: 50px;
 }
 
-body {
-  background-image:url('images/coffeebeans.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.container {
+  text-align: center;
+  padding-top: 30px;
+  height: 60px;
 }
+
+
+
+
+
+
 
 .quote {
   width: 100%;
   background-color: black;
-  margin-top: 40px;
-  padding: 30px;
+  height: 100px;
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+
+
 .split {
-  background-color: rgb(134, 89, 45);
+  background-color: rgb(131, 105, 82);
   height:200px;
   width: 100%;
 }
 
 .right {
-  display: flex;
-  justify-content: center;
-  border: none;
-  outline: 0;
-  margin-left: 300px;
   text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  right: -20px;
 }
+
+
 
 .button {
   background-color: black;
@@ -75,10 +94,11 @@ body {
   text-decoration: none;
   padding: 20px;
   border: solid 3px white;
+  font-weight: bold;
 }
 
 .button:hover {
-  color: rgb(153, 77, 0);
+  color: rgb(119, 62, 36);
 }
 
 
@@ -88,9 +108,13 @@ body {
 
 
 .shop-now {
-  background-color: rgb(153, 77, 0);
+  background-color: rgb(119, 62, 36);
   width: 100%;
   height: 250px;
+  background-image:url('images/11147.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: 77% 22%;
 }
 
 .word-container {
@@ -112,7 +136,7 @@ body {
   text-align: center;
   padding-top: 15px;
   line-height: 27px;
-  margin-top: -15px;
+  margin-top: -10px;
 }
 
 .button-2 {
@@ -121,33 +145,52 @@ body {
   font-size: 12px;
   text-decoration: none;
   padding: 10px;
-  border: solid 3px white;
+  border: solid 2px white;
+  text-align: center;
+  font-weight: bold;
 }
 
 .button-2:hover {
-  color: rgb(153, 77, 0);
+  color: rgb(119, 62, 36);
 }
 
 .add-to-cart {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 280px;
 }
 
-.coffee-image {
-  
 
 
 
 
-
-
-
-
-
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
+#footer-container {
   color: white;
+  text-align: center;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+}
+.footer {
+  float: left;
+  width: 25%;
   background-color: black;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.fab {
+  padding: 8px;
+}
+
+.submit-join {
+  padding: 5px 7px;
+  color: white;
+  background: black;
+  border:  solid 1.5px white;
+  font-weight: bold;
+  margin: auto;
+}
+
+input {
+  padding: 6px;
 }
