@@ -235,3 +235,61 @@ h4 {
 .add-to-cart {
   margin-top: 20px;
 }
+
+
+/* Contact Us page*/
+
+.contact-us {
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+
+.contact-form {
+  padding: 50px;
+  margin: auto;
+}
+
+.input-section input[type=text], textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.input-section input[type=email] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.input-section label::selection {
+  background: black;
+  color: white;
+}
+
+.submit input {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  border: solid 1.5px black;
+  font-weight: bold;
+}
+
+.contact-us-submit:hover {
+  color: rgb(119, 62, 36);
+}
+
+.form_label {
+  display: block;
+  text-align: left;
+  margin-left: 25%;
+}

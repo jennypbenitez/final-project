@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Pura Vida Cafe</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="pages.css"/>
+
+    <style>
+      #footer-container {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+
+  </head>
+
+
+  <body>
+
+    <header>
+      <nav>
+        <div class="logo">
+            <img src="images/puravidalogo-black.png" alt="PURA VIDA" width="150" height="50"/>
+        </div>
+        <div class="container">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+      <!-- Side Section -->
+
+    <main>
+      <div class="contact-us">
+        <h3>CONTACT US</h3>
+      </div>
+
+      <!-- Shop Section -->
+
+      <main>
+        <center><form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <div class="first-name input-section">
+            <label for="firstname" class="form_label">First Name: </label>
+            <input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
+          </div>
+
+          <div class="email input-section">
+            <label for="email" class="form_label">Email: </label>
+            <input type="email" name="req_email" id="email" placeholder="johnsmith@example.com" />
+          </div>
+
+          <div class="comments input-section">
+            <label for="comments" class="form_label">Comments: </label>
+            <textarea name="comments" id="comments" cols="50" ></textarea>
+          </div>
+
+          <div class="submit">
+            <input class="contact-us-submit" type="submit"/>
+          </div>
+        </form></center>
+      </main>
+
+      <!-- Footer Section -->
+
+      <section id="footer-container">
+        <div class="footer address">
+          <h5>FIND US!<h5>
+          <p>2727 Coffee Blvd.</p>
+          <p>Snellville, GA</p>
+          <p>30039</p>
+        </div>
+
+        <div class="footer hours">
+          <h5>HOURS</h5>
+          <p>Mon. - Fri. 6 a.m. - 7 p.m.</p>
+          <p>Sat. - Sun. 6 a.m. - 5 p.m.</p>
+        </div>
+
+        <div class="footer ss-icons">
+          <h5>FOLLOW US!</h5>
+          <i class="fab fa-twitter fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-facebook-f fa-2x"></i>
+        </div>
+
+
+        <div class="footer rewards">
+          <h5>JOIN OUR REWARDS</h5>
+          <input class="email-input" type="email" id="email"/>
+          <input class="submit-join" type="submit" value="JOIN"/>
+        </div>
+      </section>
+  </body>
+</html>
