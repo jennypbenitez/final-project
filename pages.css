@@ -44,6 +44,41 @@ header nav a:hover {
 }
 
 
+#footer-container {
+  color: white;
+  text-align: center;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  float: left;
+  width: 25%;
+  background-color: black;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.fab {
+  padding: 8px;
+}
+
+.submit-join {
+  padding: 5px 7px;
+  color: white;
+  background: black;
+  border:  solid 1.5px white;
+  font-weight: bold;
+  margin: auto;
+}
+
+input {
+  padding: 6px;
+}
+
+
+/* About Us Page */
 
 .about-us {
   margin-left: 105px;
@@ -72,42 +107,7 @@ header nav a:hover {
 }
 
 
-
-#footer-container {
-  color: white;
-  text-align: center;
-  width: 100%;
-  line-height: 20px;
-  font-size: 14px;
-}
-.footer {
-  float: left;
-  width: 25%;
-  background-color: black;
-  height: 100px;
-  padding-top: 20px;
-}
-
-.fab {
-  padding: 8px;
-}
-
-.submit-join {
-  padding: 5px 7px;
-  color: white;
-  background: black;
-  border:  solid 1.5px white;
-  font-weight: bold;
-  margin: auto;
-}
-
-input {
-  padding: 6px;
-}
-
-
-
-
+/* Menu Page */
 
 .menu {
   margin-left: 125px;
@@ -179,4 +179,59 @@ h4 {
 
 .iced-latte-drink {
     padding: 20px;
+}
+
+
+/* Shop Page */
+
+.shop {
+  margin-left: 125px;
+  margin-bottom: 0px;
+}
+
+#shopcafe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.coffee-bag {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(119, 62, 36);
+}
+
+.coffee {
+  padding: 20px;
+}
+
+.dot {height: 200px;
+  width: 200px;
+  background-color: rgb(119, 62, 36);
+  background-image:url('images/11147.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button:hover {
+  color: rgb(119, 62, 36);
+}
+
+.button {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  border: solid 1.5px black;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  margin-top: 20px;
 }
