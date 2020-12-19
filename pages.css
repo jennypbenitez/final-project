@@ -1,3 +1,5 @@
+/* Header*/
+
 * {
   margin: 0;
   padding: 0;
@@ -21,10 +23,11 @@ header nav {
 
 header nav a {
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
   margin: 50px;
   font-weight: bold;
+  font-family: 'avenir next condensed', sans-serif;
 }
 
 header nav a:hover {
@@ -43,15 +46,15 @@ header nav a:hover {
   height: 60px;
 }
 
+/* Footer*/
 
 #footer-container {
   color: white;
   text-align: center;
   width: 100%;
   line-height: 20px;
-  font-size: 14px;
+  background-color: black;
 }
-
 .footer {
   float: left;
   width: 25%;
@@ -60,17 +63,33 @@ header nav a:hover {
   padding-top: 20px;
 }
 
+.footer p {
+  font-family: 'avenir', sans-serif;
+  font-size: 12px;
+}
+
+h5{
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-family: 'didot', serif;
+}
+
 .fab {
-  padding: 8px;
+  padding: 6px 8px;
 }
 
 .submit-join {
   padding: 5px 7px;
   color: white;
   background: black;
-  border:  solid 1.5px white;
+  border: solid 1px white;
   font-weight: bold;
   margin: auto;
+  font-family: 'avenir', sans-serif;
+  font-size: 12px;
+}
+.email-input {
+  padding-top: 5px;
 }
 
 input {
@@ -80,9 +99,11 @@ input {
 
 /* About Us Page */
 
+
 .about-us {
-  margin-left: 105px;
+  margin-left: 100px;
   margin-bottom: 0px;
+  font-family: 'didot', serif;
 }
 
 .split-container {
@@ -96,9 +117,10 @@ input {
   margin-left: 155px;
   text-align: center;
   display: block;
-  line-height: 40px;
+  line-height: 30px;
   padding: 30px;
-  font-size: 18px
+  font-size: 18px;
+  font-family: 'avenir', serif;
 }
 
 .about-image {
@@ -110,23 +132,29 @@ input {
 /* Menu Page */
 
 .menu {
-  margin-left: 125px;
+  margin-left: 120px;
   margin-bottom: 0px;
+  font-family: 'didot', serif;
 }
 
 .menu-label {
   text-align: center;
   padding-top: 20px;
+  font-family: 'avenir', sans-serif;
+  font-size: 15px;
 }
 
 h4 {
   padding-top: 10px;
 }
+
 .food-container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: 'didot', serif;
+  font-size: 18px;
 }
 
 .food {
@@ -137,6 +165,7 @@ h4 {
 
 .french-toast-food {
   padding: 20px;
+  margin-top: 35px;
 }
 
 .tomato-quiche-food {
@@ -157,6 +186,8 @@ h4 {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: 'didot', serif;
+  font-size: 18px;
 }
 
 .beverage {
@@ -175,6 +206,7 @@ h4 {
 
 .cold-brew-drink {
     padding: 20px;
+    margin-top: 35px;
 }
 
 .iced-latte-drink {
@@ -185,8 +217,10 @@ h4 {
 /* Shop Page */
 
 .shop {
-  margin-left: 125px;
+  margin-left: 120px;
   margin-bottom: 0px;
+  font-family: 'didot', serif;
+  font-size: 18px;
 }
 
 #shopcafe-container {
@@ -205,6 +239,7 @@ h4 {
 
 .coffee {
   padding: 20px;
+  font-family: 'didot', serif;
 }
 
 .dot {height: 200px;
@@ -219,17 +254,18 @@ h4 {
 }
 
 .button:hover {
-  color: rgb(119, 62, 36);
+  background-color: rgb(119, 62, 36);
 }
 
 .button {
   background-color: white;
   color: black;
-  font-size: 18px;
+  font-size: 12px;
   text-decoration: none;
   padding: 5px;
   border: solid 1.5px black;
   font-weight: bold;
+  font-family: 'avenir', sans-serif;
 }
 
 .add-to-cart {
@@ -242,6 +278,7 @@ h4 {
 .contact-us {
   margin-left: 90px;
   margin-bottom: 0px;
+  font-family: 'didot', serif;
 }
 
 .contact-form {
@@ -277,19 +314,23 @@ h4 {
 .submit input {
   background-color: white;
   color: black;
-  font-size: 18px;
+  font-size: 12px;
   text-decoration: none;
   padding: 5px;
   border: solid 1.5px black;
   font-weight: bold;
+  font-family: 'avenir', sans-serif;
 }
 
 .contact-us-submit:hover {
-  color: rgb(119, 62, 36);
+  background-color: rgb(119, 62, 36);
 }
 
 .form_label {
   display: block;
   text-align: left;
   margin-left: 25%;
+  font-family: 'avenir', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 }
