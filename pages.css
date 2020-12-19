@@ -46,7 +46,9 @@ header nav a:hover {
   height: 60px;
 }
 
+
 /* Footer*/
+
 
 #footer-container {
   color: white;
@@ -90,6 +92,10 @@ h5{
 }
 .email-input {
   padding-top: 5px;
+}
+
+.submit-join:hover {
+  color: rgb(119, 62, 36);
 }
 
 input {
@@ -216,6 +222,7 @@ h4 {
 
 /* Shop Page */
 
+
 .shop {
   margin-left: 120px;
   margin-bottom: 0px;
@@ -276,6 +283,7 @@ h4 {
 
 /* Contact Us page*/
 
+
 .contact-us {
   margin-left: 90px;
   margin-bottom: 0px;
@@ -334,4 +342,11 @@ h4 {
   font-family: 'avenir', sans-serif;
   font-weight: bold;
   font-size: 15px;
+}
+
+.comments label:after {
+  content: "Send Us A Message!";
+  color: black;
+  font-size: 12px;
+  font-family: 'avenir', sans-serif;
 }

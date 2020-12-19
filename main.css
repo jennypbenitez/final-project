@@ -1,5 +1,6 @@
 /* Header*/
 
+
 * {
   margin: 0;
   padding: 0;
@@ -56,7 +57,9 @@ header nav a:hover {
   height: 60px;
 }
 
+
 /* Quote */
+
 
 .quote {
   width: 100%;
@@ -70,7 +73,9 @@ header nav a:hover {
   font-family: 'didot', serif;
 }
 
+
 /* Coffee & Menu Section*/
+
 
 .split {
   background-color: rgb(131, 105, 82);
@@ -100,7 +105,9 @@ header nav a:hover {
   color: rgb(119, 62, 36);
 }
 
+
 /* Shop Section*/
+
 
 .shop-now {
   background-color: rgb(119, 62, 36);
@@ -158,7 +165,9 @@ header nav a:hover {
   margin-left: 280px;
 }
 
+
 /* Footer*/
+
 
 #footer-container {
   color: white;
